@@ -1,5 +1,8 @@
 {
   "tabWidth": 2,
   "semi": true,
-  "singleQuote": true
+  "singleQuote": true,
+  "plugins": ["prettier-plugin-tailwindcss", "tailwindcss"],
+  "pluginSearchDirs": false,
+  "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"]
 }
